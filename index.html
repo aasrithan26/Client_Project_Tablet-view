@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Student Success Portal - UMSI</title>
+  <link rel="stylesheet" href="css/html5reset.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a href="#main-content" class="skip-link">Skip to Main Content</a>
+
+  <header>
+    <div class="header-top">
+      <img src="images/UMSI_signature_vertical_informal_solidblue.jpg" alt="UMSI Logo" class="logo" />
+      <button class="dark-mode-toggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+    </div>
+    <nav id="primary-nav" class="primary-navigation" aria-label="Main Navigation">
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="page_1.html">Food Pantry</a></li>
+        <li><a href="page_2.html">CAPS</a></li>
+        <li><a href="page_3.html">Study Spaces</a></li>
+      </ul>
+    </nav>
+        
+        <h1>Student Success Portal</h1>
+    </header>
+
+    <main id="main-content">
+        <section class="intro">
+            <h2>Welcome to the UM Grad Success Navigator</h2>
+            <p>Your Comprehensive Guide to Resources for Graduate School Success</p>
+            <p>This guide is set up to help you be successful inside and outside of the classroom and includes the following resources:</p>
+            
+            <div class="resource-categories">
+                <ol>
+                    <li>Academic Resources</li>
+                    <li>Physical Health</li>
+                    <li>Mental Health</li>
+                    <li>Life Outside the Classroom</li>
+                    <li>Contact</li>
+                </ol>
+            </div>
+        </section>
+        
+        <section class="featured-resources">
+            <h2>Featured Resources</h2>
+            <div class="resource-grid">
+                <article class="resource-card">
+                    <h3>Academic Support</h3>
+                    <p>Access tutoring, writing help, and academic advising to improve your academic performance.</p>
+                    <a href="#" class="resource-link">Learn More</a>
+                </article>
+                
+                <article class="resource-card">
+                    <h3>Crisis Resources</h3>
+                    <figure>
+                        <img src="images/UHS.jpg" alt="University Health Services building">
+                        <figcaption>24/7 Support Available</figcaption>
+                    </figure>
+                    <p>Find immediate help for urgent mental health concerns, financial emergencies, and more.</p>
+                    <a href="#" class="resource-link">Get Help Now</a>
+                </article>
+                
+                <article class="resource-card">
+                    <h3>Wellness Resources</h3>
+                    <figure>
+                        <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="Student wearing a UMSI backpack in fall">
+                        <figcaption>Maintain your physical and mental well-being</figcaption>
+                    </figure>
+                    <p>Explore resources for physical fitness, mental health, and overall wellness.</p>
+                    <a href="#" class="resource-link">Explore Wellness</a>
+                </article>
+            </div>
+        </section>
+        
+        <section class="physical-health">
+            <h2>Physical Health</h2>
+            <p>Keeping your body healthy is essential for success. The University of Michigan offers numerous resources to help you stay in top physical condition:</p>
+            
+            <div class="physical-health-grid resource-grid">
+                <article class="resource-card">
+                    <h3>University Health Service (UHS)</h3>
+                    <figure>
+                        <img src="images/UHS.jpg" alt="University Health Services building">
+                        <figcaption>University Health Services Building</figcaption>
+                    </figure>
+                    <p>Access comprehensive medical care, including routine check-ups, vaccinations, and specialist referrals.</p>
+                    <a href="tel:7347643400" class="contact-link">Call: 734-764-3400</a>
+                </article>
+                
+                <article class="resource-card">
+                    <h3>Recreational Sports</h3>
+                    <figure>
+                        <img src="images/UMSI_CampusFall_UMSIBackpack_02.jpg" alt="A student wears a UMSI backpack in fall on campus">
+                        <figcaption>Stay active on campus</figcaption>
+                    </figure>
+                    <p>Participate in various fitness programs, sports clubs, and gym facilities to stay active and healthy.</p>
+                    <a href="#" class="resource-link">View Facilities</a>
+                </article>
+            </div>
+        </section>
+        
+        <section class="mental-health">
+            <h2>Mental Health</h2>
+            <p>Maintaining your mental well-being is crucial for thriving in graduate school. Here are resources to support your mental health:</p>
+            
+            <div class="mental-health-grid resource-grid">
+                <article class="resource-card">
+                    <h3>Counseling and Psychological Services (CAPS)</h3>
+                    <p>Access individual counseling, group therapy, workshops, and crisis intervention services.</p>
+                    <a href="caps.html" class="resource-link">Learn about CAPS</a>
+                </article>
+                
+                <article class="resource-card">
+                    <h3>Wellness Coaching</h3>
+                    <p>Work with a wellness coach to develop strategies for managing stress, time, and overall well-being.</p>
+                    <a href="#" class="resource-link">Schedule Coaching</a>
+                </article>
+            </div>
+        </section>
+
+        <section id="life-outside-classroom">
+            <h2>Life Outside the Classroom</h2>
+            <p>Graduate school is more than just academics. It's important to cultivate a balanced life. Here are some resources to help you enjoy life outside the classroom:</p>
+            
+            <div class="outside-classroom-resources">
+                <ul>
+                    <li><strong>Student Organizations:</strong> Join one of the many student organizations to connect with peers who share your interests and passions.</li>
+                    <li><strong>Arts and Culture:</strong> Explore UM's vibrant arts scene with events, exhibitions, and performances happening year-round.</li>
+                    <li><strong>Career Services:</strong> Utilize career counseling, job search resources, and networking opportunities to prepare for your professional future.</li>
+                    <li><strong>Community Engagement:</strong> Get involved with local volunteering opportunities and community service projects to make a positive impact.</li>
+                    <li><strong>Housing and Dining:</strong> Find information on on-campus housing options and dining services to ensure a comfortable living experience.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="feedback-form">
+            <h2>Send Us Your Feedback</h2>
+            <form id="feedbackForm">
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" required />
+      
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required />
+      
+              <label for="message">Your Message:</label>
+              <textarea id="message" name="message" rows="4" required></textarea>
+      
+              <button type="submit">Submit</button>
+            </form>
+            <p id="formResponse"></p>
+          </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-contact">
+                <h2>Contact Us</h2>
+                <address>
+                    MSI Academic Advising<br>
+                    School of Information<br>
+                    University of Michigan<br>
+                    <href="tel:7347643493">734-764-3493
+                    <umsi.advising@umich.edu</a>
+                </address>
+            </div>
+            
+        <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> University of Michigan School of Information</p>
+    </div>
+     <script src="js/script.js"></script>
+</body>
+</html>
